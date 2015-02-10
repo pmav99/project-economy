@@ -62,6 +62,7 @@ PLUGINS = [
     "sitemap",
     'simple_footnotes',
     'series',
+    'html_rst_directive',
 ]
 
 # Uncomment following line if you want document-relative URLs when developing
