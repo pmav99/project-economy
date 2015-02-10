@@ -30,6 +30,14 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 6
+PLUGIN_PATHS = ['./plugins', '../plugins']
+PLUGINS = [
+    "assets",
+    #"liquid_tags",
+    "sitemap",
+    'simple_footnotes',
+    'series',
+]
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
